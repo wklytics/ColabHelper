@@ -1,7 +1,7 @@
 # ColabHelper
 utility functions on Colab Notebook environment
 
-## Objective: Add ipywidget-like interactive functions
+## Objective: Add ipywidget-like interactive functions on google Colab
 >  Current support: 
 >* Continuous range of multiple floats (use slider)
 >* Fixed parameters +  interactive parameters (arbitray number) (see ex1.py when you run within Colabhelper folder)
