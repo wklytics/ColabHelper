@@ -8,7 +8,7 @@ utility functions on Colab Notebook environment
 
 ## Part 2) use from scratch
 > in your colab notebook run with below commands
-'''python
+```python
 # download the module;
 !git clone https://github.com/wklytics/ColabHelper.git
 from ColabHelper.utility.Interactive import *
@@ -30,4 +30,4 @@ def test_plot(phase,ampl,factor, fix1,fix2):
 interact(test_plot,phase=[0.5,5,0.5], ampl=[1.0,5.0,0.5],factor=[1.0,10.0,0.5], 
          fix1=0.1, fix2=0.2)
 
-'''
+```
